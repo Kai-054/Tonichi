@@ -1,0 +1,12 @@
+hf_hub_repo: /home/anlab/khai/Probation/Tonichi/yomitoku_model
+charset: /home/anlab/khai/Probation/Tonichi/yomitoku/src/yomitoku/resource/charsetv2.txt
+num_tokens: 7121
+max_label_length: 100
+decode_ar: 1
+refine_iters: 1
+data:
+  img_size: [32, 800]
+encoder:
+  embed_dim: 768
+decoder:
+  embed_dim: 768
